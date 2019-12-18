@@ -1,5 +1,5 @@
 {
-    "name": "gameover",
+    "name": "GameOver",
     "version": "1.0.0",
     "description": "This is a simple test and experiment bot",
     "main": "bot.js",
