@@ -11,11 +11,19 @@ bot.on('message', message =>{
 
     if(message.author.id != "656542594406416391" && message.channel.id === "656658556011020288"){
         if(msg.startsWith('>', 0)){
-            if(msg === prefix + "yt" && message.channel.id === "656658556011020288"){
-                message.channel.send('SUBSCRIBE!!! https://www.youtube.com/channel/UCs9mR_zW4UJotnbv5pf3wwQ ') // Sends a message to the channel, with the content
+            if(msg =    == prefix + "yt" && message.channel.id === "656658556011020288"){
+                message.channel.send('CHANNEL LINK!!! https://www.youtube.com/channel/UCs9mR_zW4UJotnbv5pf3wwQ ') // Sends a message to the channel, with the content
             }
+            
+            else if(msg =    == prefix + "insta" && message.channel.id === "656658556011020288"){
+                message.channel.send('INSTAGRAM!!! https://www.instagram.com/subham_30/ ') // Sends a message to the channel, with the content
+            }
+            else if(msg =    == prefix + "discord" && message.channel.id === "656658556011020288"){
+                message.channel.send('DISCORD LINK!!! https://discord.gg/g3B9fuR ') // Sends a message to the channel, with the content
+            }
+            
             else{
-                message.channel.send("Hey, I only understand >yt right now. More will be added when my creator is free. :) ")
+                message.channel.send("Hey, I only understand some right now. More will be added when my creator is free. :) ")
             }
         }
        
