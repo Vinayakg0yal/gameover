@@ -24,8 +24,16 @@ bot.on('message', message =>{
                 message.channel.send("Hey, I only understand some commands right now. More will be added when my creator is free. :) ")
             }
         }
-        
     }
+    
+      bot.user.setStatus('available')
+    bot.user.setPresence({
+        game: {
+            name: 'with depression',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/monstercat"
+        }
+    });
 });
 
 bot.login(process.env.BOT_TOKEN)
