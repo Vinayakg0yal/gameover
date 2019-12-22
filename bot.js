@@ -25,6 +25,7 @@ bot.on('message', message =>{
             }
         }
     }
+});
 bot.user.setActivity('YouTube', { type: 'WATCHING' });
 });
 bot.login(process.env.BOT_TOKEN)
