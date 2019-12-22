@@ -29,9 +29,9 @@ bot.on('message', message =>{
       bot.user.setStatus('available')
     bot.user.setPresence({
         game: {
-            name: 'with depression',
+            name: 'on Youtube',
             type: "STREAMING",
-            url: "https://www.twitch.tv/monstercat"
+            url: "https://www.youtube.com/channel/UCs9mR_zW4UJotnbv5pf3wwQ"
         }
     });
 });
