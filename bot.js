@@ -26,9 +26,4 @@ bot.on('message', message =>{
         }
     }
 });
-{
-   // Set bot status to: "Playing with JavaScript"
-    client.user.setActivity("with JavaScript")
-});
-
 bot.login(process.env.BOT_TOKEN)
