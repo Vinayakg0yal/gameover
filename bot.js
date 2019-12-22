@@ -26,5 +26,5 @@ bot.on('message', message =>{
         }
     }
 });
-   bot.user.setStatus('dnd')
+
 bot.login(process.env.BOT_TOKEN)
