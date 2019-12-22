@@ -25,6 +25,7 @@ bot.on('message', message =>{
             }
         }
     }
+    client.user.setActivity("PUBG MOBILE")
 });
 
 bot.login(process.env.BOT_TOKEN)
