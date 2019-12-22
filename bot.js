@@ -27,9 +27,7 @@ bot.on('message', message =>{
     }
 bot.user.setPresence({
         game: {
-            name: 'with depression',
-            type: "STREAMING",
-            url: "https://www.twitch.tv/monstercat"
+            name: 'PUBG MOBILE'
         }
     })
 });
