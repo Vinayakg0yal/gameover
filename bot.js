@@ -4,6 +4,9 @@ var bot = new Discord.Client();
 
 bot.on('message', message =>{
 
+    {
+ client.user.setActivity("PUBG MOBILE") 
+}
     // Variables
     var sender = message.author; //The person who sent the message
     var msg = message.content;
@@ -25,7 +28,6 @@ bot.on('message', message =>{
             }
         }
     }
-    client.user.setActivity("PUBG MOBILE")
 });
 
 bot.login(process.env.BOT_TOKEN)
