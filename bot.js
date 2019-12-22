@@ -26,5 +26,9 @@ bot.on('message', message =>{
         }
     }
 });
-bot.user.setActivity('YouTube', { type: 'WATCHING' });
+bot.user.setPresence({
+        game: {
+            name: 'PUBG MOBILE'
+        }
+    });
 bot.login(process.env.BOT_TOKEN)
