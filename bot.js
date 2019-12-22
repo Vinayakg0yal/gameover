@@ -25,11 +25,8 @@ bot.on('message', message =>{
             }
         }
     }
-    
-      bot.user.setStatus('dnd')
+       bot.user.setStatus('dnd')
     client.user.setActivity("PUBG MOBILE"); 
-        }
-    });
 });
 
 bot.login(process.env.BOT_TOKEN)
