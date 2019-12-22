@@ -29,8 +29,8 @@ bot.on('message', message =>{
       bot.user.setStatus('available')
     bot.user.setPresence({
         game: {
-            name: 'on Youtube',
-            type: "STREAMING",
+            name: 'PUBG MOBILE',
+            type: "PLAYING",
             url: "https://www.youtube.com/channel/UCs9mR_zW4UJotnbv5pf3wwQ"
         }
     });
