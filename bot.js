@@ -21,7 +21,7 @@ bot.on('message', message =>{
                 message.channel.send('Discord Link!! https://discord.gg/g3B9fuR ') // Sends a message to the channel, with the content
             }
             else{
-                message.channel.send("Hey, I only understand some commands right now. More will be added when my creator is free. :) ")
+                message.channel.send("Hey, I only understand some commands right now. More will be added when my creator is available. :) ")
             }
         }
     }
